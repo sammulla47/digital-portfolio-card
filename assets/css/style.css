@@ -1,0 +1,92 @@
+@font-face{
+	font-family: 'Poppins';
+	scr: url('css/fonts/Poppins-Bold.ttf')format('truetype');
+	font-family: 'Numans';
+		scr: url('css/fonts/Numans-Regular.ttf')format('truetype');
+}
+body {
+  background: #f5f5f5;
+	-webkit-font-smoothing: antialiased; 
+}
+.bg-gr-green{
+	/* fallback for old browsers 
+background: -webkit-linear-gradient(to left, #96c93d, #00b09b);   Chrome 10-25, Safari 5.1-6 
+background: linear-gradient(to left, #96c93d, #00b09b);  W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+/*background-image: linear-gradient(to right, #ff9966, #ff5e62);*/
+	background-image: url(../img/cool-background.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	    animation: animatedBackground 10s linear infinite;
+    -moz-animation: animatedBackground 10s linear infinite;
+    -webkit-animation: animatedBackground 10s linear infinite;
+    -ms-animation: animatedBackground 10s linear infinite;
+    -o-animation: animatedBackground 10s linear infinite;
+}
+
+main{
+/*	margin: 100px;*/
+	  
+}
+
+.center-s{
+	display:flex; 
+justify-content:center;
+align-items:center;
+height:80vh;
+}
+.portfile-card{
+	width: 192px;
+	height: 336px;
+	padding: 10px;
+	z-index: 99px;
+	border-radius: 8px;
+	
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-family: Poppins;
+}
+h1{
+	font-size: 26px;
+	line-height: 30px;
+	font-weight: 600;
+}
+p, span{
+	font-family: Numans;
+}
+
+.img-set{
+	border: 3px solid #f5f5f5;
+	border-radius: 100%;
+	text-align: center
+}
+.bg-icon{
+	background: white;
+	border-radius: 10px;
+}
+.icon-set{
+	font-size: 18px;
+	margin: 0% 11%;
+}
+
+@keyframes animatedBackground {
+    0% { background-position: 0 0; }
+    100% { background-position: -300px 0; }
+}
+@-moz-keyframes animatedBackground {
+    0% { background-position: 0 0; }
+    100% { background-position: -300px 0; }
+}
+@-webkit-keyframes animatedBackground {
+    0% { background-position: 0 0; }
+    100% { background-position: -300px 0; }
+}
+@-ms-keyframes animatedBackground {
+    0% { background-position: 0 0; }
+    100% { background-position: -300px 0; }
+}
+@-o-keyframes animatedBackground {
+    0% { background-position: 0 0; }
+    100% { background-position: -300px 0; }
+}
