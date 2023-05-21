@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Nabla&display=swap');
 *,
 *::after,
 *::before {
@@ -60,12 +60,13 @@ body {
 
 .container h1 {
     position: absolute;
-		bottom: -25%;
+	bottom: -25%;
     left: 50%;
     transform: translate(-50%);
     width: 100%;
     text-align: center;
     color: #313942;
+    font-family: 'Nabla', cursive;
 }
 
 .container p {
